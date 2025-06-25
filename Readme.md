@@ -1,100 +1,90 @@
 🏡 Real Estate Explorer App
-A cross-platform mobile and web app built with Expo + React Native + NativeWind that allows users to explore property listings, filter them, view detailed pages, and contact agents — all with beautiful, responsive UI.
+A  mobile real estate listing app built with Expo + React Native + NativeWind. Explore, filter, and inquire about properties with clean UI and responsive design.
 
-Live Web App: [(https://xrstate.netlify.app)]/ (replace with your Netlify link)
+🌐 Live Demo: https://xrstate.netlify.app
+📁 GitHub Repository: https://github.com/TabrezMZ/XrState
 
-
+Replace the links above with your actual deployed site and GitHub repo.
 
 ✨ Features
-🔍 Browse and search property listings
+🔍 Real-time property search and filtering
 
-🎯 Advanced filtering (location, price, bedrooms, etc.)
+📄 Pixel-perfect detail screen with tabs
 
-🧾 Pixel-perfect Property Detail screen with tabs
+💬 Contact agent form with validation
 
-📨 Contact Agent form with validation
+💚 Favorite properties (like/unlike)
 
-💚 Like/favorite properties (persisted)
+🌐 Web support with React Native Web
 
-🔗 Cross-platform support (iOS, Android, Web)
+🎨 NativeWind for utility-first styling
 
-🧱 Responsive design with NativeWind (Tailwind for RN)
+🔄 Global state management with Context API
 
-🔄 Global state via Context API
+📱 Mobile-first and responsive design
 
-🌐 Deployed on Netlify for web
+🧱 Tech Stack
+Layer	Stack
+Framework	React Native via Expo (TypeScript)
+Styling	NativeWind (Tailwind CSS for RN)
+Navigation	React Navigation
+Global State	Context API
 
-🛠 Tech Stack
-React Native + Expo
-
-NativeWind (Tailwind CSS for RN)
-
-TypeScript
-
-React Navigation
-
-React Hook Form
-
-React Native Modal
-
-AsyncStorage (for likes)
-
-Deployed with Netlify (web)
-
-📦 Project Structure
+📁 Project Structure
 
 src/
 │
-├── components/         # Reusable UI components
+├── components/             # Reusable UI components
 │   ├── Header.tsx
 │   ├── PropertyCard.tsx
 │   ├── FilterChip.tsx
 │   ├── ContactAgentModal.tsx
 │   └── ScreenWrapper.tsx
 │
-├── screens/            # App screens
+├── screens/                # Screens used in navigation
 │   ├── HomeScreen.tsx
 │   ├── FilterScreen.tsx
 │   ├── PropertyDetailScreen.tsx
 │   └── ContactScreen.tsx
 │
-├── navigation/         # Navigation config
+├── navigation/             # App navigation
 │   └── AppNavigator.tsx
 │
-├── context/            # Global state
+├── context/                # Global state provider
 │   └── PropertyContext.tsx
 │
-├── constants/          # Colors, icons, dummy data
+├── constants/              # Static data & configuration
 │   └── index.ts
 │
-├── types/              # TypeScript types
+├── types/                  # Custom TypeScript types
 │   └── index.ts
 │
-└── assets/             # Images, icons
+└── assets/                 # Images, icons, fonts
 🚀 Getting Started
-Clone this repo
+Clone the project:
 
 
-git clone https://github.com/TabrezMZ/XrState.git
-
-cd XrState
-
-Install dependencies
-
+git clone https://github.com/your-username/real-estate-expo-app.git
+cd real-estate-expo-app
+Install dependencies:
 
 
 npm install
-
-Start the development server
+Start the app:
 
 
 npm run start
+Run on web:
 
-# or for specific platforms
-npm run ios
-
-npm run android
 
 npm run web
+Run on Android:
 
 
+npm run android
+Run on iOS:
+
+bash
+Copy
+Edit
+npm run ios
