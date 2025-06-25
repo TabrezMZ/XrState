@@ -76,68 +76,25 @@ Clone this repo
 
 
 git clone https://github.com/TabrezMZ/XrState.git
+
 cd XrState
+
 Install dependencies
 
 
+
 npm install
+
 Start the development server
 
 
 npm run start
+
 # or for specific platforms
 npm run ios
+
 npm run android
+
 npm run web
-🧱 NativeWind Setup (Tailwind for RN)
-Already configured with:
 
-tailwind.config.js:
-
-
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./App.{js,jsx,ts,tsx}",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  presets: [require("nativewind/preset")],
-  theme: { extend: {} },
-  plugins: [],
-};
-ClassName syntax is used throughout for styling.
-
-🧠 Context Provider
-Global state managed with Context API:
-
-likedProperties[]
-
-filterState
-
-toggleLike()
-
-src/context/PropertyContext.tsx
-
-🌐 Web Deployment (Netlify)
-Build for web
-
-npm run build:web
-Deploy web-build/ folder on Netlify
-
-Either connect GitHub repo
-
-Or manually upload web-build to Netlify
-
-Optional: Add netlify.toml for routing:
-
-netlify.toml
-
-
-[build]
-  publish = "web-build"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
 
