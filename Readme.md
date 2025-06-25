@@ -3,8 +3,7 @@ A cross-platform mobile and web app built with Expo + React Native + NativeWind 
 
 Live Web App: [(https://xrstate.netlify.app)]/ (replace with your Netlify link)
 
-📸 Screenshots
-(Add your screenshots here)
+
 
 ✨ Features
 🔍 Browse and search property listings
@@ -76,8 +75,8 @@ src/
 Clone this repo
 
 
-git clone https://github.com/your-username/real-estate-expo-app.git
-cd real-estate-expo-app
+git clone https://github.com/TabrezMZ/XrState.git
+cd XrState
 Install dependencies
 
 
@@ -141,11 +140,4 @@ netlify.toml
   from = "/*"
   to = "/index.html"
   status = 200
-✅ To Do / Improvements
-🔐 Add user login + saved filters
 
-🧭 Map integration (e.g. Google Maps)
-
-📩 Send inquiries via email (EmailJS or backend)
-
-🌙 Light/Dark theme toggle
