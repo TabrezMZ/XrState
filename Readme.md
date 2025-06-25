@@ -15,8 +15,6 @@ Replace the links above with your actual deployed site and GitHub repo.
 
 💚 Favorite properties (like/unlike)
 
-🌐 Web support with React Native Web
-
 🎨 NativeWind for utility-first styling
 
 🔄 Global state management with Context API
@@ -65,23 +63,29 @@ Clone the project:
 
 
 git clone https://github.com/TabrezMZ/XrState.git
+
 cd real-estate-expo-app
+
 Install dependencies:
 
 
 npm install
+
 Start the app:
 
 
 npm run start
+
 Run on web:
 
 
 npm run web
+
 Run on Android:
 
 
 npm run android
+
 Run on iOS:
 
 npm run ios
