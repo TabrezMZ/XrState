@@ -1,7 +1,7 @@
 🏡 Real Estate Explorer App
 A cross-platform mobile and web app built with Expo + React Native + NativeWind that allows users to explore property listings, filter them, view detailed pages, and contact agents — all with beautiful, responsive UI.
 
-Live Web App: https://your-app.netlify.app/ (replace with your Netlify link)
+Live Web App: [(https://xrstate.netlify.app)]/ (replace with your Netlify link)
 
 📸 Screenshots
 (Add your screenshots here)
