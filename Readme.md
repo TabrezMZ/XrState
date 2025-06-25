@@ -64,7 +64,7 @@ src/
 Clone the project:
 
 
-git clone https://github.com/your-username/real-estate-expo-app.git
+git clone https://github.com/TabrezMZ/XrState.git
 cd real-estate-expo-app
 Install dependencies:
 
@@ -84,7 +84,4 @@ Run on Android:
 npm run android
 Run on iOS:
 
-bash
-Copy
-Edit
 npm run ios
