@@ -64,7 +64,7 @@ Clone the project:
 
 git clone https://github.com/TabrezMZ/XrState.git
 
-cd real-estate-expo-app
+cd XrState
 
 Install dependencies:
 
